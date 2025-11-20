@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="classTheme_1_1QfSwitch" kind="class" language="C++" prot="public">
+    <compoundname>Theme::QfSwitch</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">SwitchDelegate</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classTheme_1_1QfSwitch_1adc304f556f8e51033fb19db00c3ee40b" prot="public" static="no" readable="yes" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Theme::QfSwitch::small</definition>
+        <argsstring></argsstring>
+        <name>small</name>
+        <qualifiedname>Theme::QfSwitch::small</qualifiedname>
+        <read>dummyGetter_small_ignore</read>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/QfSwitch.qml" line="12" column="1" bodyfile="src/qml/imports/Theme/QfSwitch.qml" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classTheme_1_1QfSwitch_1ac95b84a29e404ddfedeea9fb3e8e7440" prot="private" static="no" mutable="no">
+        <type>var</type>
+        <definition>var Theme::QfSwitch::width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>Theme::QfSwitch::width</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/QfSwitch.qml" line="14" column="5" bodyfile="src/qml/imports/Theme/QfSwitch.qml" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTheme_1_1QfSwitch_1adb9bb732456b5480cf03b10fee751c40" prot="private" static="no" mutable="no">
+        <type>var</type>
+        <definition>var Theme::QfSwitch::padding</definition>
+        <argsstring></argsstring>
+        <name>padding</name>
+        <qualifiedname>Theme::QfSwitch::padding</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/QfSwitch.qml" line="15" column="5" bodyfile="src/qml/imports/Theme/QfSwitch.qml" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTheme_1_1QfSwitch_1a5caa5e495195278be2230c35f3267e84" prot="private" static="no" mutable="no">
+        <type>var</type>
+        <definition>var Theme::QfSwitch::indicator</definition>
+        <argsstring></argsstring>
+        <name>indicator</name>
+        <qualifiedname>Theme::QfSwitch::indicator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/QfSwitch.qml" line="16" column="5" bodyfile="src/qml/imports/Theme/QfSwitch.qml" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classTheme_1_1QfSwitch_1adc949d496b68974192513660da599a7a" prot="private" static="no" mutable="no">
+        <type>var</type>
+        <definition>var Theme::QfSwitch::background</definition>
+        <argsstring></argsstring>
+        <name>background</name>
+        <qualifiedname>Theme::QfSwitch::background</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/qml/imports/Theme/QfSwitch.qml" line="17" column="5" bodyfile="src/qml/imports/Theme/QfSwitch.qml" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><linebreak/>
+ <linebreak/>
+<bold>Import Statement</bold> <linebreak/>
+ <programlisting><codeline><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Theme<sp/></highlight></codeline>
+</programlisting> <simplesect kind="version"><para>1.0 </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>SwitchDelegate</label>
+      </node>
+      <node id="1">
+        <label>Theme::QfSwitch</label>
+        <link refid="classTheme_1_1QfSwitch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>SwitchDelegate</label>
+      </node>
+      <node id="1">
+        <label>Theme::QfSwitch</label>
+        <link refid="classTheme_1_1QfSwitch"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="src/qml/imports/Theme/QfSwitch.qml" line="9" column="1" bodyfile="src/qml/imports/Theme/QfSwitch.qml" bodystart="9" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classTheme_1_1QfSwitch_1adc949d496b68974192513660da599a7a" prot="private" virt="non-virtual"><scope>Theme::QfSwitch</scope><name>background</name></member>
+      <member refid="classTheme_1_1QfSwitch_1a5caa5e495195278be2230c35f3267e84" prot="private" virt="non-virtual"><scope>Theme::QfSwitch</scope><name>indicator</name></member>
+      <member refid="classTheme_1_1QfSwitch_1adb9bb732456b5480cf03b10fee751c40" prot="private" virt="non-virtual"><scope>Theme::QfSwitch</scope><name>padding</name></member>
+      <member refid="classTheme_1_1QfSwitch_1adc304f556f8e51033fb19db00c3ee40b" prot="public" virt="non-virtual"><scope>Theme::QfSwitch</scope><name>small</name></member>
+      <member refid="classTheme_1_1QfSwitch_1ac95b84a29e404ddfedeea9fb3e8e7440" prot="private" virt="non-virtual"><scope>Theme::QfSwitch</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

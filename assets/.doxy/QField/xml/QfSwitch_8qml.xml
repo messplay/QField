@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.8" xml:lang="en-US">
+  <compounddef id="QfSwitch_8qml" kind="file" language="C++">
+    <compoundname>QfSwitch.qml</compoundname>
+    <innerclass refid="classTheme_1_1QfSwitch" prot="public">Theme::QfSwitch</innerclass>
+    <innernamespace refid="namespaceTheme">Theme</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">import</highlight><highlight class="normal"><sp/>QtQuick</highlight></codeline>
+<codeline lineno="2"><highlight class="normal">import<sp/>QtQuick.Controls</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">SwitchDelegate<sp/>{</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/>property<sp/>bool<sp/>small:<sp/>false</highlight></codeline>
+<codeline lineno="9" refid="classTheme_1_1QfSwitch" refkind="compound"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/>width:<sp/>small<sp/>?<sp/>34<sp/>:<sp/>48</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/>padding:<sp/>10</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/>indicator:<sp/>Rectangle<sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>implicitWidth:<sp/>small<sp/>?<sp/>34<sp/>:<sp/>48</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>implicitHeight:<sp/>small<sp/>?<sp/>16<sp/>:<sp/>26</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>x:<sp/>parent.leftPadding</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>y:<sp/>(parent.height<sp/>+<sp/>parent.topPadding<sp/>-<sp/>6)<sp/>/<sp/>2<sp/>-<sp/>height<sp/>/<sp/>2</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>radius:<sp/>implicitHeight<sp/>/<sp/>2</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>color:<sp/>parent.checked<sp/>?<sp/>Theme.mainColor<sp/>:<sp/>Theme.controlBorderColor</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>border.color:<sp/>parent.checked<sp/>?<sp/>Theme.mainColor<sp/>:<sp/>Theme.controlBorderColor</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>Rectangle<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>x:<sp/>parent.parent.checked<sp/>?<sp/>parent.width<sp/>-<sp/>width<sp/>:<sp/>0</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>width:<sp/>parent.implicitHeight</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>height:<sp/>parent.implicitHeight</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>radius:<sp/>parent.implicitHeight<sp/>/<sp/>2</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>opacity:<sp/>parent.parent.down<sp/>?<sp/>0.85<sp/>:<sp/>1</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>color:<sp/>Theme.mainBackgroundColor</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>border.color:<sp/>parent.parent.checked<sp/>?<sp/>Theme.mainColor<sp/>:<sp/>Theme.controlBorderColor</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>Behavior<sp/>on<sp/>x<sp/><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>PropertyAnimation<sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>duration:<sp/>150</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>easing.type:<sp/>Easing.Linear</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/>background:<sp/>Rectangle<sp/>{</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>implicitWidth:<sp/>100</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>implicitHeight:<sp/>40</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>visible:<sp/>false</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>color:<sp/>&quot;transparent&quot;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/qml/imports/Theme/QfSwitch.qml"/>
+  </compounddef>
+</doxygen>
